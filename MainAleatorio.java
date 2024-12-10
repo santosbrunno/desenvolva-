@@ -1,3 +1,5 @@
+package AulasAda;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -11,8 +13,8 @@ public class MainAleatorio {
             int numeroAleatorio = random.nextInt(10) + 1;
             int palpite = 0;
 
-            System.out.println("Bem-vindo ao jogo!");
-            System.out.println("Nesse Jogo você terá que tentar adivinhar o número entre 1 e 10.");
+            System.out.println("Bem-vindo ao nosso jogo!");
+            System.out.println("Nesse Jogo você terá que tentar adivinhar o número que está entre 1 e 10.");
 
             while (palpite != numeroAleatorio) {
                 System.out.print("Dê o seu palpite: ");
